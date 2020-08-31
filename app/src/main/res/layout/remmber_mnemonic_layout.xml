@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/wallet_list_toolBar"
+        android:background="#1A8DC1"
+        android:layout_width="match_parent"
+        app:titleTextAppearance="@style/Toolbar.TitleText"
+        android:layout_height="52dp">
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/mnemonic"
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:background="@drawable/square_border"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true">
+    </TextView>
+    <Button
+        android:id="@+id/copy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="复制"
+        android:layout_marginTop="18dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/mnemonic">
+    </Button>
+
+</RelativeLayout>

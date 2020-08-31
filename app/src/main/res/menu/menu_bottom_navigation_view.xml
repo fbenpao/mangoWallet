@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item_bottom_1"
+        android:enabled="true"
+        android:icon="@mipmap/wallet_logo"
+        android:title="钱包"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/item_bottom_2"
+        android:enabled="true"
+        android:icon="@mipmap/statistics_logo"
+        android:title="统计"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/item_bottom_3"
+        android:enabled="true"
+        android:icon="@mipmap/setting_logo"
+        android:title="设置"
+        app:showAsAction="ifRoom" />
+
+</menu>

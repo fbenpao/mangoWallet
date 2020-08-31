@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".WalletList">
+
+    <!--orderInCategory菜单项的优先级，也就是顺序，只能设置正整数，数值越大菜单项越靠前-->
+    <item
+        android:id="@+id/item1"
+        android:orderInCategory="100"
+        android:title="搜索"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/item2"
+        android:orderInCategory="100"
+        android:title="通知"
+        android:visible="false"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/item3"
+        android:orderInCategory="100"
+        android:title="备份钱包"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/item4"
+        android:orderInCategory="100"
+        android:title="添加币种"
+        app:showAsAction="never"/>
+</menu>
